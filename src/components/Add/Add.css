@@ -1,0 +1,40 @@
+input[type=radio]{
+    display: inline-block;
+}
+input[type=text],input[type=number]{
+    padding:8px 32px 8px 16px;
+    
+    margin-bottom: 0.5rem;
+    background-color: rgba(255, 255, 240, 0);
+    color: white;
+}
+fieldset{
+    max-width: min-content;
+    padding-left: 20rem;
+    padding-right:20rem;
+    box-sizing: border-box;
+    margin: auto;
+    color: #0b8793;
+    z-index: 10;
+}
+input{
+    margin-top: 0.5rem;
+    z-index: 1;
+}
+.box{
+    grid-row: 2/3;
+    grid-column: 2/3;
+    
+    overflow: hidden;
+    z-index: 10;
+
+ background: #00416A;  
+    background: -webkit-linear-gradient(to bottom, #E4E5E6, #00416A);  
+    background: linear-gradient(to bottom, #E4E5E6, #00416A); 
+  
+    box-shadow: 10px 5px 5px rgb(90, 124, 145) ;
+}
+input[type=button]{
+    width: 100%;
+    color: #0b8793;
+}

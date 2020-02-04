@@ -1,0 +1,50 @@
+
+
+
+.frame{
+    margin: 10% auto;
+    background: #360033;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0b8793, #360033);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0b8793, #360033); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    width: 20rem;
+    height: min-content;
+    padding: 3rem;
+    text-align: center;
+    border-radius: 10%;
+    box-shadow: 5px 5px 5px black;
+}
+.iconLog{
+    color: grey;
+    margin: 32px;
+    border: 1px solid white;
+    padding: 16px;
+    border-radius: 5%;
+}
+
+input[type=email], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    background-color: #0b889307;
+    color: white;
+    
+  }
+
+  button {
+    background-color: #0b8793;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border: 2px solid white;
+    
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }

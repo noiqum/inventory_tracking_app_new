@@ -1,0 +1,56 @@
+.Add_Frame{
+    display: inline;
+    position: absolute;
+    left:6rem;
+    top: 14rem;
+    background-clip: content-box;
+    padding-right: 80%;
+    animation-name: disappear;
+    animation-delay: 2s;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+    
+}
+#plus{
+    animation-name: pulse_plus;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-timing-function:ease-in;
+    animation-iteration-count: 1;
+    transform-origin: center;
+    transform-box: border-box;
+    animation-direction: alternate-reverse;
+}
+
+
+@keyframes disappear{
+    0%{
+        opacity: 1;
+    }
+    20%{
+        opacity: 0.8;
+    }
+    40%{
+        opacity: 0.6;
+    }
+    70%{
+        opacity:0.4;
+    }
+    90%{
+        opacity: 0.10;
+    }
+    100%{
+        display: none;
+    }
+}
+
+
+@keyframes pulse_plus {
+    from{
+        transform: scale(0.5);
+    }
+    to {
+        transform: scale(1.5);
+    }
+}

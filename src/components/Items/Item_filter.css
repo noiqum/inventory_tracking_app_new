@@ -1,0 +1,16 @@
+.filter_button{
+    display: inline;
+    
+}
+.filter_button:hover{
+    background-color: lightslategrey;
+}
+.filter_button:active{
+    background-color: gray;
+}
+.Item_filter{
+    display: flex;
+    align-items: center;
+    width: 85vw;
+    margin: 0 auto;
+}

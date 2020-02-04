@@ -1,0 +1,22 @@
+.boxIntro{
+    grid-row: 2/3;
+    grid-column: 2/3;
+    
+    overflow: hidden;
+    text-align:center ;
+    
+}
+
+#basket{
+ animation: move 2s linear infinite alternate-reverse;
+
+}
+
+@keyframes move{
+    from{
+        transform: translateX(0px);
+    }
+    to{
+        transform: translateX(-50px);
+    }
+}

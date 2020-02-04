@@ -1,0 +1,71 @@
+
+
+
+.frame{
+    margin-top: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+    background: #360033;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0b8793, #360033);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0b8793, #360033); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    width: 18rem;
+    height: 23rem;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 10%;
+    box-shadow: 5px 5px 5px black;
+}
+.iconLog{
+    color: grey;
+    margin: 8px;
+    border: 1px solid white;
+    padding: 16px;
+    border-radius: 5%;
+    
+}
+.pulse {
+    animation-name: pulse;
+    animation-duration: 5000ms;
+    transform-origin:70% 70%;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+input[type=email], input[type=password] {
+    width: 100%;
+    padding: 8px 16px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    background-color: #0b889307;
+    color: white;
+    
+  }
+
+  button {
+    background-color: #0b8793;
+    color: white;
+    padding: 8px 16px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border: 2px solid white;
+    
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+
+  @keyframes pulse {
+    0% { transform: scale(1); }
+    30% { transform: scale(1); }
+    40% { transform: scale(1.08); }
+    50% { transform: scale(1); }
+    60% { transform: scale(1); }
+    70% { transform: scale(1.05); }
+    80% { transform: scale(1); }
+    100% { transform: scale(1); }
+  }
