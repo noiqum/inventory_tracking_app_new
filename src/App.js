@@ -3,6 +3,7 @@ import './App.css';
 import Navbar from './components/Navbar/Navbar';
 import MainArea from './components/MainArea/MainArea';
 import LogIn from './components/LogIn/LogIn';
+import Reports from './components/Reports/Reports';
 //import SignUp from './components/SignUp/SignUp';
 import  './Server/Server';
 import firebase from 'firebase/app';
@@ -14,7 +15,7 @@ import Items from './components/Items/Items';
 class App extends Component {
 
   state={
-    LogInStatus:true,
+    LogInStatus:false,
     SignUpStatus:null,
     email:'',
     password:'',
@@ -68,6 +69,7 @@ class App extends Component {
           <Switch>
           <Route path='/' exact component={MainArea}/>
           <Route path='/items' component={Items}/>
+          <Route path='/reports' component={Reports}/>
           </Switch>
           </div>)
          :

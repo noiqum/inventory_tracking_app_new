@@ -10,7 +10,7 @@ export class Navbar extends Component {
                 <NavLink to='/' name='home'>HOME</NavLink>
                 <NavLink to='/items'name='Items'>ITEMS</NavLink>
                 {/* <a onClick={this.props.onclick}href="#items">ITEMS</a> */}
-                <a onClick={this.props.onclick}href="#report">REPORTS</a>
+                <NavLink to='/reports' name='reports'>REPORTS</NavLink>
                 <a onClick={this.props.logout}href="#log">LOG OUT</a>
                 <a onClick={this.props.onclick}href="#user">USER</a>
             </div>

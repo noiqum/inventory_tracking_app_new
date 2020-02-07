@@ -1,0 +1,77 @@
+#navbar{
+
+animation-name: bgcolor;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+animation-duration: 2s;
+animation-fill-mode: reverse;
+}
+
+#sidebar{
+    animation: shape 3s ease-in-out 3s  ;
+    animation-iteration-count: infinite;
+}
+#text1{
+    animation: up 2s ease-out 3s infinite  alternate;
+}
+
+#text3{
+    animation: pad 4s linear 2s infinite  alternate;
+}
+#text{
+    position: absolute;
+    top: 30%;
+    z-index: 1;
+    
+    animation: slide;
+    animation-timing-function: linear;
+    animation-duration: 10s;
+    animation-direction: initial;
+    animation-iteration-count: infinite;
+}
+@keyframes slide{
+    from{transform: translateX(-400px);}
+    to{transform: translateX(2000px);}
+}
+@keyframes pad{
+    to{
+        transform: translateX(10%);
+    }
+}
+
+@keyframes up{
+    to{
+        transform: translateY(5%);
+    }
+}
+
+@keyframes bgcolor{
+    from{
+        fill: #0b8793;
+        
+    }
+    
+    to{
+        
+        fill: #360033;}
+}
+@keyframes shape{
+    0%{
+        fill: palevioletred;
+    }
+    20%{
+        fill: #0b8793;
+    }
+    40%{
+        fill: #360033;
+    }
+    60%{
+        fill: gray;
+    }
+    80%{
+        fill: lightskyblue;
+    }
+    100%{
+        opacity: 0;
+    }
+}
