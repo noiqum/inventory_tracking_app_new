@@ -2,3 +2,5 @@ stock tracker application , to follow and manage stock state and item in stock. 
 for testing , the credential is ready-to-use is :
 username: test@test.com
 passwrord: test123456
+and link
+https://inventory-e9650.web.app/
